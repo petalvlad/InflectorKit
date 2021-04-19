@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {
     'APPLICATION_EXTENSION_API_ONLY' => 'YES',
     'DEFINES_MODULE' => 'YES',
-    'ENABLE_BITCODE' => 'NO',
+    'ENABLE_BITCODE' => 'YES',
     'ENABLE_TESTING_SEARCH_PATHS' => 'YES',
     'OTHER_LDFLAGS' => '$(inherited) -Xlinker -no_application_extension',
   }
